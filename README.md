@@ -37,12 +37,19 @@ A python program was made to determine:
 
         votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
 
-*  Which county had the largest number of votes?
-    - 
+*  ### Which county had the largest number of votes?
+    - The algorith shows that the countie with the largest number of votes was: Denver
     - ![plot](D:\BootCamp\ClassWork\3. Elections_Analysis\Election_Analysis\resources\image1.JPG)
 
-*  Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
-*  Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+*  ### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
+    - Charles Casper Stockham recived : 23.0% (85,213)
+    - Diana DeGette recived : 73.8% (272,892)
+    - Raymon Anthony Doane recived : 3.1% (11,606)
+*  ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    - Winner: Diana DeGette
+      Winning Vote Count: 272,892
+      Winning Percentage: 73.8%
+
 
 ## Election-Audit Summary: 
 

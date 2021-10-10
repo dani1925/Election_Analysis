@@ -14,11 +14,12 @@ A python program was made to determine:
 ## Election-Audit Results: 
 *  ### How many votes were cast in this congressional election?
     - The fisrst task was to determinate the total number of votes, no matters by now, the number of candidates and counties in this election. in order to determine the total number of votes the followig code was used:
-
+    ```ruby
         "headers = next(file_reader)
         for row in file_reader:
             total_votes += 1
             candidate_name = row[2]"
+     ```
 
     If we inspec the data, we can notice that the first row of the csv file is a Header row. in te previous code the "Next" function skips the firts row. 
     the "For" loop is used to loop over all rows in the file and add by 1 the "total_votes" variable to get the total number of votes. 
@@ -35,7 +36,7 @@ A python program was made to determine:
     An "If" function is used to determine if the list "countie_options" has already an element with the same name. if not, the "append" function will add it into the list and add +1 to this countie.
 
     Once the number of votes per countie is got, the percentage is calculated with the "total_votes" variable. 
-    
+
     ```ruby
         votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
     ```

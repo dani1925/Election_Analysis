@@ -3,6 +3,17 @@ Election Results
 -------------------------
 Total Votes: 369,711
 -------------------------
+
+Charles Casper Stockham recived : 23.0% (85,213)
+Diana DeGette recived : 73.8% (272,892)
+Raymon Anthony Doane recived : 3.1% (11,606)
+------------------------------------- 
+County Votes: 
+Jefferson   recibio : 10.51 % con 38855  votos
+Denver   recibio : 82.78 % con 306055  votos
+Arapahoe   recibio : 6.71 % con 24801  votos
+-----------------------------
+Largest County Turnout: Denver
 -------------------------
 Winner: Diana DeGette
 Winning Vote Count: 272,892

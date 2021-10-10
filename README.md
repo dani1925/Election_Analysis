@@ -27,11 +27,20 @@ A python program was made to determine:
     - One challenge of this analysis was to determine the number of counties that contains the information within the csv file and then calculate the percentage of votes for each county.
 
     
-        if voter_country not in countie_options:
+        if voter_country not in countie_options:  
            countie_options.append(voter_country)
            countie_votes[voter_country] = 0
         
         countie_votes[voter_country] += 1
+
+    An "If" function is used to determine if the list "countie_options" has already an element with the same name. if not, the "append" function will add it into the list and add +1 to this countie.
+
+    Once the number of votes per countie is got, the percentage is calculated with the "total_votes" variable. 
+
+        votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
+
+
+
 
 *  Which county had the largest number of votes?
 *  Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 

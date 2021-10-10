@@ -15,10 +15,10 @@ A python program was made to determine:
 *  ### How many votes were cast in this congressional election?
     - The fisrst task was to determinate the total number of votes, no matters by now, the number of candidates and counties in this election. in order to determine the total number of votes the followig code was used:
     ```ruby
-        "headers = next(file_reader)
+        headers = next(file_reader)
         for row in file_reader:
             total_votes += 1
-            candidate_name = row[2]"
+            candidate_name = row[2]
      ```
 
     If we inspec the data, we can notice that the first row of the csv file is a Header row. in te previous code the "Next" function skips the firts row. 
@@ -51,10 +51,15 @@ A python program was made to determine:
     - Raymon Anthony Doane recived : 3.1% (11,606)
 *  ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     - Winner: Diana DeGette
-      Winning Vote Count: 272,892
-      Winning Percentage: 73.8%
+    - Winning Vote Count: 272,892
+    - Winning Percentage: 73.8%
 
 
 ## Election-Audit Summary: 
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+## The order of the data
+One of the greatest advantages of this script is that it can return the number of votes per county, and per candidate, regardless of whether the information hosted in the csv file is ordered or not.
+
+- The csv file contains the voter's ID. with a modification to the script the algorithm could detect if a voter has tried to vote more than once or even in some other county
+
+- Another interesting analysis would be to know the number of votes that each candidate obtained for each county. With this information, the candidates will know where they should do more to make their political ideas reach and improve their results.

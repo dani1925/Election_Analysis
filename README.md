@@ -30,7 +30,6 @@ A python program was made to determine:
         if voter_country not in countie_options:  
            countie_options.append(voter_country)
            countie_votes[voter_country] = 0
-        
         countie_votes[voter_country] += 1
 
     An "If" function is used to determine if the list "countie_options" has already an element with the same name. if not, the "append" function will add it into the list and add +1 to this countie.

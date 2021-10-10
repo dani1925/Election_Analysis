@@ -35,9 +35,10 @@ A python program was made to determine:
     An "If" function is used to determine if the list "countie_options" has already an element with the same name. if not, the "append" function will add it into the list and add +1 to this countie.
 
     Once the number of votes per countie is got, the percentage is calculated with the "total_votes" variable. 
-
+    
+    ```ruby
         votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
-
+    ```
 *  ### Which county had the largest number of votes?
     - The algorith shows that the countie with the largest number of votes was: Denver as shown in the TXT file
         - https://github.com/dani1925/Election_Analysis/blob/main/image1.JPG?raw=true

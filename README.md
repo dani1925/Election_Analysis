@@ -25,11 +25,12 @@ A python program was made to determine:
 
 *  ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
     - One challenge of this analysis was to determine the number of counties that contains the information within the csv file and then calculate the percentage of votes for each county.
-
+    ```ruby
         if voter_country not in countie_options:  
            countie_options.append(voter_country)
            countie_votes[voter_country] = 0
         countie_votes[voter_country] += 1
+    ```
 
     An "If" function is used to determine if the list "countie_options" has already an element with the same name. if not, the "append" function will add it into the list and add +1 to this countie.
 
@@ -38,8 +39,8 @@ A python program was made to determine:
         votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
 
 *  ### Which county had the largest number of votes?
-    - The algorith shows that the countie with the largest number of votes was: Denver
-    - https://github.com/dani1925/Election_Analysis/blob/main/image1.JPG?raw=true
+    - The algorith shows that the countie with the largest number of votes was: Denver as shown in the TXT file
+        - https://github.com/dani1925/Election_Analysis/blob/main/image1.JPG?raw=true
 
 
 *  ### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 

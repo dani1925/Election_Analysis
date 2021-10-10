@@ -26,7 +26,6 @@ A python program was made to determine:
 *  ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
     - One challenge of this analysis was to determine the number of counties that contains the information within the csv file and then calculate the percentage of votes for each county.
 
-    
         if voter_country not in countie_options:  
            countie_options.append(voter_country)
            countie_votes[voter_country] = 0

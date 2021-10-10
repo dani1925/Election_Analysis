@@ -39,7 +39,8 @@ A python program was made to determine:
 
 *  ### Which county had the largest number of votes?
     - The algorith shows that the countie with the largest number of votes was: Denver
-    - ![plot](D:\BootCamp\ClassWork\3. Elections_Analysis\Election_Analysis\resources\image1.JPG)
+    - ![alt text](https://github.com/[dani1925]/[Election_Analysis]/blob/[main]/image1.JPG ?raw=true)
+
 
 *  ### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
     - Charles Casper Stockham recived : 23.0% (85,213)

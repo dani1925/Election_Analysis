@@ -37,10 +37,10 @@ A python program was made to determine:
 
         votes_by_countie_porcentage = float(votes_by_countie) / float(total_votes)*100  
 
-
-
-
 *  Which county had the largest number of votes?
+    - 
+    - ![plot](D:\BootCamp\ClassWork\3. Elections_Analysis\Election_Analysis\resources\image1.JPG)
+
 *  Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
 *  Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
